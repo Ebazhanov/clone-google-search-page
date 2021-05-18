@@ -1,0 +1,31 @@
+.container_buttons {
+  padding-top: 18px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.button_search {
+  border-radius: 4px;
+  border: 1px solid #f8f9fa;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 30px;
+  min-width: 54px;
+  background-color: rgb(245, 244, 244);
+}
+
+.button_search:hover {
+  border: 1px solid #dedfe0;
+}
+
+.google_search {
+  margin-right: 10px;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}

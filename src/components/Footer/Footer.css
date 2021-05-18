@@ -1,0 +1,43 @@
+.bottom-menu-container {
+  background-color: rgba(223, 219, 219, 0.54);
+  margin-top: auto;
+  width: 100%;
+  font-size: 15px;
+}
+
+.land {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.bottom-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.left-menu-items {
+  justify-content: flex-start;
+  min-width: 30%;
+  order: 0;
+  margin-left: 20px;
+}
+
+.werbeprogramme,
+.unternehmen,
+.functioniert,
+.co2,
+.datenschutz,
+.nutzungs,
+.einstellungen {
+  color: #70757a;
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+}
+
+.pic-co2 {
+  height: 14px;
+  margin-right: 6px;
+}

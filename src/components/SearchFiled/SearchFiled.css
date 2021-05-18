@@ -1,0 +1,66 @@
+.searchbox {
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 34px;
+  margin: 0 auto;
+  width: 500px;
+  max-width: 484px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchbox:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+input {
+  font-size: 16px;
+  outline: none;
+  border: none;
+  width: 400px;
+  margin-left: 30px;
+  margin-top: -5px;
+}
+
+.search-icon {
+  color: #9aa0a6;
+  display: flex;
+  fill: currentColor;
+  height: 24px;
+  line-height: 24px;
+  width: 24px;
+  position: absolute;
+  margin-top: 3px;
+}
+
+.container_mic {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.microfon-icon svg {
+  float: right;
+  height: 51px;
+  position: relative;
+  top: 3px;
+  right: -9px;
+  z-index: 11;
+}
+
+.microfon-icon svg {
+  flex: 1 0 auto;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 34px;
+}
